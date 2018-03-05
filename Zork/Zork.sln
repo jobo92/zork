@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zork", "Zork.csproj", "{B14FB3AA-BDDC-49E2-B9BE-8945FED35D9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "..\Trees\Trees.csproj", "{0F75033E-394D-4A70-8408-278C324F60CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B14FB3AA-BDDC-49E2-B9BE-8945FED35D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B14FB3AA-BDDC-49E2-B9BE-8945FED35D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B14FB3AA-BDDC-49E2-B9BE-8945FED35D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F75033E-394D-4A70-8408-278C324F60CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F75033E-394D-4A70-8408-278C324F60CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F75033E-394D-4A70-8408-278C324F60CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F75033E-394D-4A70-8408-278C324F60CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
