@@ -14,7 +14,7 @@ namespace Zork
         East
     }
 
-    class Area
+    public class Area
     {
         //something to hold connected nodes/areas
         public Dictionary<Directions, Area> neighbors = new Dictionary<Directions, Area>();

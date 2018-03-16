@@ -10,22 +10,11 @@ namespace Zork
     {
         static void Main(string[] args)
         {
-            //defining nodes
-            Area a = new Area("Entrance", "it looks dark and spooky, are you sure you should be here?");
-            Area b = new Area("Dickbutt palace", "are you really sure you should be HERE?");
-            Area c = new Area("The basement", "it's locked and damp");
-            Area d = new Area("The crypt", "The tombs have already been raided :(");
-
-            //defining edges
-            a.AddArea(c, Directions.West);
-            c.AddArea(a, Directions.East);
-            c.AddArea(d, Directions.West);
-            d.AddArea(c, Directions.East);
-            a.AddArea(b, Directions.North);
-            b.AddArea(a, Directions.South);
+            //create a map
+            Map map = new Map();
 
             //starting area
-            Area currentArea = a;
+            Area currentArea = map.startingPosition;
 
             //gameplay loop
             while (true)
